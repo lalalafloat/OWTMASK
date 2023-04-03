@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3, nohup python projects/OWT-Mask/train_net.py --config-file projects/OWT-Mask/configs/mask_rcnn_R_101_FPN_LSJ_OWT.yaml --num-gpus 4 --dist-url auto >train_maskrcnn_r101_lsj_owt_log.txt 2>&1 &
